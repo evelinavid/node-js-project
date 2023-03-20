@@ -5,7 +5,7 @@ export type CarViewModel = {
   brand: string,
   model: string,
   seller: {
-    id:number,
+    id: number,
     name: string,
     surname: string,
     phone: string,

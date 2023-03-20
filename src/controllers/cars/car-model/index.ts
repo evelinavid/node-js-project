@@ -80,12 +80,16 @@ const createCar = async (carData: CarData, userId:number): Promise<CarViewModel>
   return car;
 };
 
-const replaceCar = async (carId: string, carData: CarData): Promise<CarViewModel> => {
+const replaceCar = async (
+  carId: string,
+  carData: CarData,
+)
+: Promise<CarViewModel> => {
   const connection = await mysql.createConnection(config.database);
 
   const preparedSql = `
     update car 
-    set price = ?, year = ?, modelId = ?, userId = 4
+    set price = ?, year = ?, modelId = ?
     where carId = ?;
 
     delete from image

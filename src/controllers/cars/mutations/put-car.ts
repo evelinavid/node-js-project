@@ -16,12 +16,13 @@ CarDataBody,
   try {
     if (id === undefined || req.authUser === undefined) throw new ServerSetupError();
     const carToUpdate = await CarModel.getCar(id);
-    const carData = carDataValidationScheme.validateSync(req.body);
-    const carViewModel = await CarModel.replaceCar(id, carData);
 
     if (req.authUser.role !== 'ADMIN' && req.authUser.id !== carToUpdate.seller.id) {
       throw new ForbiddenError();
     }
+
+    const carData = carDataValidationScheme.validateSync(req.body);
+    const carViewModel = await CarModel.replaceCar(id, carData);
 
     res.status(200).json(carViewModel);
   } catch (error) {

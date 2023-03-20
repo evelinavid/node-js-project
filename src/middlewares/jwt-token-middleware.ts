@@ -15,7 +15,7 @@ const JwtTokenMiddleware: RequestHandler = async (req, res, next) => {
     const authData = JwtTokenService.decode(token);
     if (authData === null) throw new UnauthorizedError();
 
-    const currentTimestamp = Math.floor(new Date().getTime());
+    const currentTimestamp = Math.floor(new Date().getTime() / 1000);
     if (currentTimestamp > authData.exp) throw new UnauthorizedError();
 
     req.authUser = await UserModel.getUserByEmail(authData.email);
