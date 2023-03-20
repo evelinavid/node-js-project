@@ -1,0 +1,130 @@
+
+    INSERT into brand(title) values
+    ('TOYOTA'),
+('LEXUS'),
+('PEUGEOT'),
+('MERCEDES-BENZ'),
+('VOLKSWAGEN'),
+('OPEL'),
+('KIA');
+    
+
+    INSERT into model(brandId,title) values
+    (1, 'Corolla'),
+(2, 'UX'),
+(2, 'CT 200H'),
+(1, 'Verso-S'),
+(1, 'Land Cruiser'),
+(3, '308'),
+(3, '508'),
+(4, 'A200'),
+(5, 'T-CROSS'),
+(4, 'B220'),
+(6, 'MOKKA'),
+(7, 'CEE/D');
+    
+
+    INSERT INTO user(email, password, name, surname, phone, role) values
+    ('admin@cars.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WnnG6', 'Noah', 'Lake', '+37058981245', 'ADMIN'),
+    ('rfrancklin0@merriam-webster.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Rubie', 'Francklin', '+1 (763) 102-6156', 'USER'),
+('aales1@addthis.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Alecia', 'Ales', '+33 (301) 715-5934', 'USER'),
+('bodempsey2@dion.ne.jp', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Brunhilde', 'Odempsey', '+62 (279) 652-9505', 'USER'),
+('lheimes3@economist.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Leyla', 'Heimes', '+86 (382) 767-1075', 'USER'),
+('cashbolt4@opera.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Craig', 'Ashbolt', '+7 (815) 358-5334', 'USER'),
+('aotham5@woothemes.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Augustine', 'Otham', '+34 (826) 127-4354', 'USER'),
+('lfarens6@virginia.edu', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Lonni', 'Farens', '+55 (503) 528-6578', 'USER'),
+('cmoiser7@amazon.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Clarence', 'Moiser', '+86 (558) 982-8013', 'USER'),
+('snund8@gmpg.org', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Samara', 'Nund', '+1 (310) 798-8573', 'USER'),
+('fcoltherd9@booking.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Frans', 'Coltherd', '+967 (535) 474-9015', 'USER'),
+('cdobbyna@miibeian.gov.cn', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Chucho', 'Dobbyn', '+7 (442) 689-8446', 'USER'),
+('nfullyloveb@hp.com', '$2b$10$/oolJQxqMnjLmsB8iaaBguk67FPht.zUAXTb2A1zRTF70mv8WmzG6', 'Nan', 'Fullylove', '+86 (564) 949-4332', 'USER');
+    
+
+INSERT INTO car(userId, year, price, modelId) values
+(2, 2019, 32000, 1),
+(3, 2022, 48000, 2),
+(4, 2014, 17900, 3),
+(5, 2011, 8000, 4),
+(6, 2017, 36000, 5),
+(7, 2021, 56000, 6),
+(8, 2022, 38000, 7),
+(9, 2013, 15000, 8),
+(10, 2021, 32000, 9),
+(11, 2019, 27000, 10),
+(12, 2015, 12000, 11),
+(13, 2017, 12000, 12);
+
+    INSERT INTO image(carId, src) values
+    (1, 'https://scene7.toyota.eu/is/image/toyotaeurope/toyota-corolla-sedan-2019-visual-02_tcm-10-1559763?qlt=80&wid=1280&fit=fit,1&ts=1675688416330'),
+(1, 'https://scene7.toyota.eu/is/image/toyotaeurope/toyota-corolla-sedan-2019-gallery-full_tcm-10-1559726:Medium-Landscape?ts=1675688416321'),
+(1, 'https://scene7.toyota.eu/is/image/toyotaeurope/toyota-corolla-hatchback-2019-gallery-08-full_tcm-10-1553826:Medium-Landscape?ts=1675688416347'),
+(2, 'https://scene7.toyota.eu/is/image/toyotaeurope/Gallery-Exterior-8-1920x1080?qlt=80&wid=1280&fit=fit,1&ts=0'),
+(2, 'https://scene7.toyota.eu/is/image/toyotaeurope/4th-generation-lexus-1920x1080?qlt=80&wid=1280&fit=fit,1&ts=1675691419832'),
+(2, 'https://scene7.toyota.eu/is/image/toyotaeurope/lexus-safety-system-1920x1080-1?qlt=80&wid=1280&fit=fit,1&ts=1675691420015'),
+(3, 'https://select.lexus.lt/picserver1/userdata/1/30039/WheTDhdoBr/xxl_kfz88110006_image00002jpg-su-logo.jpg'),
+(3, 'https://select.lexus.lt/picserver1/userdata/1/30039/WheTDhdoBr/xxl_kfz88110006_image00032.jpg'),
+(3, 'https://select.lexus.lt/picserver1/userdata/1/30039/WheTDhdoBr/xxl_kfz88110006_image00023.jpg'),
+(4, 'https://toyotaplus.toyota.lt/picserver1/userdata/1/30032/WheTwhdkDvVDtN/xxl_kfz87742251_3768_20221221_145644.jpg'),
+(4, 'https://toyotaplus.toyota.lt/picserver1/userdata/1/30032/WheTwhdkDvVDtN/xxl_kfz87742251_3760_20221221_150032.jpg'),
+(4, 'https://toyotaplus.toyota.lt/picserver1/userdata/1/30032/WheTwhdkDvVDtN/xxl_kfz87742251_3761_20221221_145544.jpg'),
+(5, 'https://toyotaplus.toyota.lt/picserver1/userdata/1/30033/WheTxhdkDvVDtN/xxl_kfz88639418_59923_33811__mg_7589.jpg'),
+(5, 'https://toyotaplus.toyota.lt/picserver1/userdata/1/30033/WheTxhdkDvVDtN/xxl_kfz88639418_59920_33808__mg_7643.jpg'),
+(5, 'https://toyotaplus.toyota.lt/picserver1/userdata/1/30033/WheTxhdkDvVDtN/xxl_kfz88639418_59917_33805__mg_7628.jpg'),
+(6, 'https://media.peugeotlietuva.lt/image/85/4/peugeot-308phev-2103styp-060.782854.43.jpg?autocrop=1'),
+(6, 'https://media.peugeotlietuva.lt/image/85/8/peugeot-308phev-2103hm-016.782858.19.jpg?autocrop=1'),
+(6, 'https://media.peugeotlietuva.lt/image/85/9/peugeot-308phev-2103styp-032.782859.19.jpg?autocrop=1'),
+(7, 'https://media.peugeotlietuva.lt/image/03/3/pc05-peugeot-508-2018-076-fr.436033.17.jpg?_gl=1*16wxw7q*_ga*MTU2Mjg4NDkuMTY3NTY5MjU1Mg..*_ga_4S0Y0F2MHC*MTY3NTY5MjU1MS4xLjEuMTY3NTY5Mjk3NC4wLjAuMA..#_ga=2.97606239.197568770.1675692552-15628849.1675692552&_gac=1.120500986.1675692552.Cj0KCQiA54KfBhCKARIsAJzSrdqAvqHZwGobDCb4EjI4kAK0UwPnrk9dW5yy0_YpiCTh7aEFbl6DVsEaAvN8EALw_wcB'),
+(7, 'https://media.peugeotlietuva.lt/image/24/4/peugeot-508-2202styp-301.382244.17.jpg'),
+(7, 'https://media.peugeotlietuva.lt/image/24/5/peugeot-508-2202styp-302.382245.17.jpg'),
+(8, 'https://autoplius-img.dgn.lt/ann_25_266330260/mercedes-benz-a200-1-8-l-hecbekas-2013-dyzelinas-0.jpg'),
+(8, 'https://autoplius-img.dgn.lt/ann_2_266330286/mercedes-benz-a200-1-8-l-hecbekas-2013-dyzelinas-13.jpg'),
+(8, 'https://autoplius-img.dgn.lt/ann_3_266330260/mercedes-benz-a200-1-8-l-hecbekas-2013-dyzelinas-0.jpg'),
+(9, 'https://autoplius-img.dgn.lt/ann_25_262859618/volkswagen-t-cross-1-0-l-visureigis-2021-benzinas-0.jpg'),
+(9, 'https://autoplius-img.dgn.lt/ann_25_262859618/volkswagen-t-cross-1-0-l-visureigis-2021-benzinas-0.jpg'),
+(9, 'https://autoplius-img.dgn.lt/ann_25_262859618/volkswagen-t-cross-1-0-l-visureigis-2021-benzinas-0.jpg'),
+(10, 'https://autoplius-img.dgn.lt/ann_25_252741028/mercedes-benz-b220-2-0-l-vienaturis-2019-dyzelinas-0.jpg'),
+(10, 'https://autoplius-img.dgn.lt/ann_25_252741028/mercedes-benz-b220-2-0-l-vienaturis-2019-dyzelinas-0.jpg'),
+(10, 'https://autoplius-img.dgn.lt/ann_25_252741028/mercedes-benz-b220-2-0-l-vienaturis-2019-dyzelinas-0.jpg'),
+(11, 'https://autoplius-img.dgn.lt/ann_2_264319562/opel-mokka-1-7-l-visureigis-2015-dyzelinas-0.jpg'),
+(11, 'https://autoplius-img.dgn.lt/ann_25_264319562/opel-mokka-1-7-l-visureigis-2015-dyzelinas-0.jpg'),
+(11, 'https://autoplius-img.dgn.lt/ann_2_264319572/opel-mokka-1-7-l-visureigis-2015-dyzelinas-8.jpg'),
+(12, 'https://autoplius-img.dgn.lt/ann_25_261145782/kia-cee-d-1-4-l-hecbekas-2017-dyzelinas-0.jpg'),
+(12, 'https://autoplius-img.dgn.lt/ann_25_261145782/kia-cee-d-1-4-l-hecbekas-2017-dyzelinas-0.jpg'),
+(12, 'https://autoplius-img.dgn.lt/ann_25_261145782/kia-cee-d-1-4-l-hecbekas-2017-dyzelinas-0.jpg');
+    
+
+    INSERT into feature(name) values
+    ('HeatedSeats'),
+('BackupCamera'),
+('NavigationSystem'),
+('SunroofMoonroof');
+    INSERT INTO carFeature(carId, featureId) values
+    (1, 1),
+(1, 2),
+(1, 3),
+(2, 4),
+(2, 2),
+(3, 1),
+(4, 1),
+(5, 4),
+(5, 1),
+(5, 2),
+(5, 3),
+(6, 1),
+(6, 2),
+(6, 3),
+(7, 4),
+(8, 4),
+(8, 1),
+(8, 3),
+(9, 1),
+(9, 2),
+(9, 3),
+(10, 1),
+(10, 2),
+(11, 1),
+(12, 4),
+(12, 1),
+(12, 2),
+(12, 3);
+    

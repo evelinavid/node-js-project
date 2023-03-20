@@ -1,0 +1,283 @@
+{
+    "cars": [
+        {
+            "id": 1,
+            "brand": "TOYOTA",
+            "model": "Corolla",
+            "features": {
+                "HeatedSeats": true,
+                "BackupCamera": true,
+                "NavigationSystem": true
+            },
+            "seller": {
+                "name": "Rubie",
+                "surname": "Francklin",
+                "phone": "+1 (763) 102-6156",
+                "email": "rfrancklin0@merriam-webster.com"
+              },
+            "images": [
+                "https://scene7.toyota.eu/is/image/toyotaeurope/toyota-corolla-sedan-2019-visual-02_tcm-10-1559763?qlt=80&wid=1280&fit=fit,1&ts=1675688416330",
+                "https://scene7.toyota.eu/is/image/toyotaeurope/toyota-corolla-sedan-2019-gallery-full_tcm-10-1559726:Medium-Landscape?ts=1675688416321",
+                "https://scene7.toyota.eu/is/image/toyotaeurope/toyota-corolla-hatchback-2019-gallery-08-full_tcm-10-1553826:Medium-Landscape?ts=1675688416347"
+            ],
+            "price": 32000,
+            "year": 2019
+        },
+        {
+            "id": 2,
+            "brand": "LEXUS",
+            "model": "UX",
+            "features": {
+                "SunroofMoonroof": true,
+                "BackupCamera": true
+            },
+            "seller": {
+                "name": "Alecia",
+                "surname": "Ales",
+                "phone": "+33 (301) 715-5934",
+                "email": "aales1@addthis.com"
+              },
+
+            "images": [
+                "https://scene7.toyota.eu/is/image/toyotaeurope/Gallery-Exterior-8-1920x1080?qlt=80&wid=1280&fit=fit,1&ts=0",
+                "https://scene7.toyota.eu/is/image/toyotaeurope/4th-generation-lexus-1920x1080?qlt=80&wid=1280&fit=fit,1&ts=1675691419832",
+                "https://scene7.toyota.eu/is/image/toyotaeurope/lexus-safety-system-1920x1080-1?qlt=80&wid=1280&fit=fit,1&ts=1675691420015"
+            ],
+            "price": 48000,
+            "year": 2022
+        },
+        {
+            "id": 3,
+            "brand": "LEXUS",
+            "model": "CT 200H",
+            "features": {
+                "HeatedSeats": true
+            },
+            "seller": {
+                "name": "Brunhilde",
+                "surname": "Odempsey",
+                "phone": "+62 (279) 652-9505",
+                "email": "bodempsey2@dion.ne.jp"
+              },
+
+            "images": [
+                "https://select.lexus.lt/picserver1/userdata/1/30039/WheTDhdoBr/xxl_kfz88110006_image00002jpg-su-logo.jpg",
+                "https://select.lexus.lt/picserver1/userdata/1/30039/WheTDhdoBr/xxl_kfz88110006_image00032.jpg",
+                "https://select.lexus.lt/picserver1/userdata/1/30039/WheTDhdoBr/xxl_kfz88110006_image00023.jpg"
+            ],
+            "price": 17900,
+            "year": 2014
+        },
+        {
+            "id": 4,
+            "brand": "TOYOTA",
+            "model": "Verso-S",
+            "features": {
+                "HeatedSeats": true
+            },
+            "seller": {
+                "name": "Leyla",
+                "surname": "Heimes",
+                "phone": "+86 (382) 767-1075",
+                "email": "lheimes3@economist.com"
+              },
+
+            "images": [
+                "https://toyotaplus.toyota.lt/picserver1/userdata/1/30032/WheTwhdkDvVDtN/xxl_kfz87742251_3768_20221221_145644.jpg",
+                "https://toyotaplus.toyota.lt/picserver1/userdata/1/30032/WheTwhdkDvVDtN/xxl_kfz87742251_3760_20221221_150032.jpg",
+                "https://toyotaplus.toyota.lt/picserver1/userdata/1/30032/WheTwhdkDvVDtN/xxl_kfz87742251_3761_20221221_145544.jpg"
+            ],
+            "price": 8000,
+            "year": 2011
+        },
+        {
+            "id": 5,
+            "brand": "TOYOTA",
+            "model": "Land Cruiser",
+            "features": {
+                "SunroofMoonroof": true,
+                "HeatedSeats": true,
+                "BackupCamera": true,
+                "NavigationSystem": true
+            },
+            "seller":  {
+                "name": "Craig",
+                "surname": "Ashbolt",
+                "phone": "+7 (815) 358-5334",
+                "email": "cashbolt4@opera.com"
+              },
+
+            "images": [
+                "https://toyotaplus.toyota.lt/picserver1/userdata/1/30033/WheTxhdkDvVDtN/xxl_kfz88639418_59923_33811__mg_7589.jpg",
+                "https://toyotaplus.toyota.lt/picserver1/userdata/1/30033/WheTxhdkDvVDtN/xxl_kfz88639418_59920_33808__mg_7643.jpg",
+                "https://toyotaplus.toyota.lt/picserver1/userdata/1/30033/WheTxhdkDvVDtN/xxl_kfz88639418_59917_33805__mg_7628.jpg"
+            ],
+            "price": 36000,
+            "year": 2017
+        },
+        {
+            "id": 6,
+            "brand": "PEUGEOT",
+            "model": "308",
+            "features": {
+                "HeatedSeats": true,
+                "BackupCamera": true,
+                "NavigationSystem": true
+            },
+            "seller": {
+                "name": "Augustine",
+                "surname": "Otham",
+                "phone": "+34 (826) 127-4354",
+                "email": "aotham5@woothemes.com"
+              },
+
+            "images": [
+                "https://media.peugeotlietuva.lt/image/85/4/peugeot-308phev-2103styp-060.782854.43.jpg?autocrop=1",
+                "https://media.peugeotlietuva.lt/image/85/8/peugeot-308phev-2103hm-016.782858.19.jpg?autocrop=1",
+                "https://media.peugeotlietuva.lt/image/85/9/peugeot-308phev-2103styp-032.782859.19.jpg?autocrop=1"
+            ],
+            "price": 56000,
+            "year": 2021
+        },
+        {
+            "id": 7,
+            "brand": "PEUGEOT",
+            "model": "508",
+            "features": {
+                "SunroofMoonroof": true
+            },
+            "seller": {
+                "name": "Lonni",
+                "surname": "Farens",
+                "phone": "+55 (503) 528-6578",
+                "email": "lfarens6@virginia.edu"
+              },
+
+            "images": [
+                "https://media.peugeotlietuva.lt/image/03/3/pc05-peugeot-508-2018-076-fr.436033.17.jpg?_gl=1*16wxw7q*_ga*MTU2Mjg4NDkuMTY3NTY5MjU1Mg..*_ga_4S0Y0F2MHC*MTY3NTY5MjU1MS4xLjEuMTY3NTY5Mjk3NC4wLjAuMA..#_ga=2.97606239.197568770.1675692552-15628849.1675692552&_gac=1.120500986.1675692552.Cj0KCQiA54KfBhCKARIsAJzSrdqAvqHZwGobDCb4EjI4kAK0UwPnrk9dW5yy0_YpiCTh7aEFbl6DVsEaAvN8EALw_wcB",
+                "https://media.peugeotlietuva.lt/image/24/4/peugeot-508-2202styp-301.382244.17.jpg",
+                "https://media.peugeotlietuva.lt/image/24/5/peugeot-508-2202styp-302.382245.17.jpg"
+            ],
+            "price": 38000,
+            "year": 2022
+        },
+        {
+            "id": 8,
+            "brand": "MERCEDES-BENZ",
+            "model": "A200",
+            "features": {
+                "SunroofMoonroof": true,
+                "HeatedSeats": true,
+                "NavigationSystem": true
+            },
+            "seller": {
+                "name": "Clarence",
+                "surname": "Moiser",
+                "phone": "+86 (558) 982-8013",
+                "email": "cmoiser7@amazon.com"
+              },
+
+            "images": [
+                "https://autoplius-img.dgn.lt/ann_25_266330260/mercedes-benz-a200-1-8-l-hecbekas-2013-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_2_266330286/mercedes-benz-a200-1-8-l-hecbekas-2013-dyzelinas-13.jpg",
+                "https://autoplius-img.dgn.lt/ann_3_266330260/mercedes-benz-a200-1-8-l-hecbekas-2013-dyzelinas-0.jpg"
+            ],
+            "price": 15000,
+            "year": 2013
+        },
+        {
+            "id": 9,
+            "brand": "VOLKSWAGEN",
+            "model": "T-CROSS",
+            "features": {
+                "HeatedSeats": true,
+                "BackupCamera": true,
+                "NavigationSystem": true
+            },
+            "seller": {
+                "name": "Samara",
+                "surname": "Nund",
+                "phone": "+1 (310) 798-8573",
+                "email": "snund8@gmpg.org"
+              },
+
+            "images": [
+                "https://autoplius-img.dgn.lt/ann_25_262859618/volkswagen-t-cross-1-0-l-visureigis-2021-benzinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_262859618/volkswagen-t-cross-1-0-l-visureigis-2021-benzinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_262859618/volkswagen-t-cross-1-0-l-visureigis-2021-benzinas-0.jpg"
+            ],
+            "price": 32000,
+            "year": 2021
+        },
+        {
+            "id": 10,
+            "brand": "MERCEDES-BENZ",
+            "model": "B220",
+            "features": {
+                "HeatedSeats": true,
+                "BackupCamera": true
+            },
+            "seller": {
+                "name": "Frans",
+                "surname": "Coltherd",
+                "phone": "+967 (535) 474-9015",
+                "email": "fcoltherd9@booking.com"
+              },
+
+            "images": [
+                "https://autoplius-img.dgn.lt/ann_25_252741028/mercedes-benz-b220-2-0-l-vienaturis-2019-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_252741028/mercedes-benz-b220-2-0-l-vienaturis-2019-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_252741028/mercedes-benz-b220-2-0-l-vienaturis-2019-dyzelinas-0.jpg"
+            ],
+            "price": 27000,
+            "year": 2019
+        },
+        {
+            "id": 11,
+            "brand": "OPEL",
+            "model": "MOKKA",
+            "features": {
+                "HeatedSeats": true
+            },
+            "seller": {
+                "name": "Chucho",
+                "surname": "Dobbyn",
+                "phone": "+7 (442) 689-8446",
+                "email": "cdobbyna@miibeian.gov.cn"
+              },
+
+            "images": [
+                "https://autoplius-img.dgn.lt/ann_2_264319562/opel-mokka-1-7-l-visureigis-2015-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_264319562/opel-mokka-1-7-l-visureigis-2015-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_2_264319572/opel-mokka-1-7-l-visureigis-2015-dyzelinas-8.jpg"
+            ],
+            "price": 12000,
+            "year": 2015
+        },
+        {
+            "id": 12,
+            "brand": "KIA",
+            "model": "CEE/D",
+            "features": {
+                "SunroofMoonroof": true,
+                "HeatedSeats": true,
+                "BackupCamera": true,
+                "NavigationSystem": true
+            },
+            "seller": {
+                "name": "Nan",
+                "surname": "Fullylove",
+                "phone": "+86 (564) 949-4332",
+                "email": "nfullyloveb@hp.com"
+              },
+
+            "images": [
+                "https://autoplius-img.dgn.lt/ann_25_261145782/kia-cee-d-1-4-l-hecbekas-2017-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_261145782/kia-cee-d-1-4-l-hecbekas-2017-dyzelinas-0.jpg",
+                "https://autoplius-img.dgn.lt/ann_25_261145782/kia-cee-d-1-4-l-hecbekas-2017-dyzelinas-0.jpg"
+            ],
+            "price": 12000,
+            "year":2017
+        }
+    ]
+}
